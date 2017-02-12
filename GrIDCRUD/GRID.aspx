@@ -83,7 +83,7 @@
                              <asp:RequiredFieldValidator ControlToValidate="ftxtPhoneNo" ID="fRequiredFieldValidator5" runat="server" BackColor="Red" ErrorMessage="*"></asp:RequiredFieldValidator>
                         </td>
                         <td>
-                            <asp:LinkButton CausesValidation="false" CommandName="Add" ID="fbtnAdd" Text="Add"  runat="server"></asp:LinkButton>
+                            <asp:LinkButton CausesValidation="false" CommandName="Add"  ID="fbtnAdd" Text="+"  runat="server"></asp:LinkButton>
                             <asp:LinkButton CausesValidation="true" Visible="false" CommandName="Save"   ID="fbtnSave" Text="Save"  runat="server"></asp:LinkButton>
                            
                         </td>
